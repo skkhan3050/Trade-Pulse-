@@ -1,0 +1,5 @@
+# Temporary scratch files and logs
+*.log
+debug_log.txt
+.vscode/
+node_modules/
