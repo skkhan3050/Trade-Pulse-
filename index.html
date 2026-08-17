@@ -2368,60 +2368,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         font-size: 15px;
       }
 
-      /* ─── FLOATING CONTACT BUTTONS (BOTTOM-RIGHT) ─── */
-      .floating-buttons-wrap {
-        position: fixed;
-        bottom: 28px;
-        right: 20px;
-        z-index: 999;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        align-items: center;
-      }
-      .float-btn {
-        width: 54px;
-        height: 54px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #ffffff !important;
-        text-decoration: none;
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-        transition: transform 0.25s ease, box-shadow 0.25s ease;
-        cursor: pointer;
-      }
-      .float-btn:hover {
-        transform: scale(1.12);
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
-        color: #ffffff !important;
-      }
-      .float-btn-call {
-        background: #2563eb; /* Vibrant Blue */
-        font-size: 22px;
-      }
-      .float-btn-wa {
-        background: #25d366; /* Vibrant Green */
-        font-size: 28px;
-      }
-      @media (max-width: 768px) {
-        .floating-buttons-wrap {
-          bottom: 84px;
-          right: 16px;
-          gap: 10px;
-        }
-        .float-btn {
-          width: 48px;
-          height: 48px;
-        }
-        .float-btn-call {
-          font-size: 20px;
-        }
-        .float-btn-wa {
-          font-size: 25px;
-        }
-      }
+
 
       /* ─── ADDITIONAL MOBILE RESPONSIVENESS OVERRIDES ─── */
       html,
@@ -4507,14 +4454,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });
   </script>
 
-  <!-- ─── FLOATING ACTION BUTTONS (BOTTOM RIGHT) ─── -->
-  <div class="floating-buttons-wrap">
-    <a href="tel:+918927578901" class="float-btn float-btn-call" title="Call Us Now" target="_blank" rel="noopener">
-      <i class="fa-solid fa-phone"></i>
-    </a>
-    <a href="https://wa.me/918927578901" class="float-btn float-btn-wa" title="WhatsApp Us" target="_blank" rel="noopener">
-      <i class="fa-brands fa-whatsapp"></i>
-    </a>
-  </div>
 </body>
 </html>
