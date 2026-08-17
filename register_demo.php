@@ -5,21 +5,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'] ?? '';
     $phone = $_POST['phone'] ?? '';
     $email = $_POST['email'] ?? '';
-    $background = $_POST['background'] ?? 'N/A';
-    $experience = $_POST['experience'] ?? 'N/A';
 
-    $url = "https://script.google.com/macros/s/AKfycbzgXrNUhQy9rnVrXprf94f8Hi-kPuGDeDhblNFt0B7aINKa9oqxS7KRGd-pkpZM5Gqb/exec";
+    $url = "https://script.google.com/macros/s/AKfycbyeOsulFfNlYci_F3uXnOrDNkJLowfaTnMs9GNJUt_ZuD7a7qlsVZRNIZ-qPGqiBuTvJg/exec";
     
     $data = array(
-        "sheet_name" => "Sheet1",
-        "spreadsheet_id" => "15YLBv2kSTBEEf7VzjzZyCYM4FgGUwWUrpnvz_YEIzQI",
-        "sheet_url" => "https://docs.google.com/spreadsheets/d/15YLBv2kSTBEEf7VzjzZyCYM4FgGUwWUrpnvz_YEIzQI/edit?usp=sharing",
+        "sheet_name" => "Sheet1", // This corresponds to the sheet named 'Sheet2'
         "name" => $name,
         "phone" => $phone,
-        "email" => $email,
-        "background" => $background,
-        "experience" => $experience,
-        "payment_id" => "Free Workshop"
+        "email" => $email
     );
 
     // --- START EMAIL SENDING ---

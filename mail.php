@@ -11,12 +11,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $payment_id = 'Not Applicable - Free Workshop';
 
 
-    $url = "https://script.google.com/macros/s/AKfycbzgXrNUhQy9rnVrXprf94f8Hi-kPuGDeDhblNFt0B7aINKa9oqxS7KRGd-pkpZM5Gqb/exec";
+    $url = "https://script.google.com/macros/s/AKfycbyeOsulFfNlYci_F3uXnOrDNkJLowfaTnMs9GNJUt_ZuD7a7qlsVZRNIZ-qPGqiBuTvJg/exec";
     
     $data = array(
         "sheet_name" => "Sheet1", // This corresponds to the sheet named 'Sheet1'
-        "spreadsheet_id" => "15YLBv2kSTBEEf7VzjzZyCYM4FgGUwWUrpnvz_YEIzQI",
-        "sheet_url" => "https://docs.google.com/spreadsheets/d/15YLBv2kSTBEEf7VzjzZyCYM4FgGUwWUrpnvz_YEIzQI/edit?usp=sharing",
         "name" => $name,
         "phone" => $phone,
         "email" => $email,
@@ -52,22 +50,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($to, $subject, $message, $headers);
     // --- END EMAIL SENDING ---
 
-    // Send POST request to Google Apps Script (fast non-blocking execution)
+    // Send POST request to Google Apps Script
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Fix for local server SSL issues
-    curl_setopt($ch, CURLOPT_TIMEOUT, 3); // Max 3s timeout
     
     $result = curl_exec($ch);
+    $error = curl_error($ch);
     curl_close($ch);
 
-    ob_clean();
-    header('Content-Type: application/json');
-    echo json_encode(["status" => "success"]);
-    exit();
+    if ($result !== false && $result !== "Sheet not found") {
+        ob_clean();
+        header('Content-Type: application/json');
+        echo json_encode(["status" => "success"]);
+        exit();
+    } else {
+        $error_msg = $error ? $error : "Response: " . $result;
+        ob_clean();
+        header('Content-Type: application/json');
+        echo json_encode(["status" => "error", "message" => $error_msg]);
+        exit();
+    }
 
 }
 

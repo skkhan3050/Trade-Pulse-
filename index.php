@@ -12,23 +12,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Stock Market Training Institute in Kolkata | Trading Classes & Option Trading Course | TradePulse
+      TradePulse Traders Institute | Stock Market Training Kolkata | Options
+      Trading Course
     </title>
     <meta
       name="description"
-      content="Looking for a stock market training institute in kolkata or trading classes near me? Join TradePulse — the top stock trading institute in Kolkata for beginner stock trading course, option trading course in kolkata, share market course in kolkata, and offline stock market classes near me."
-    />
-    <meta
-      name="keywords"
-      content="trading classes, trading course, trading classes near me, online trading course, stock market classes near me, option trading classes near me, stock market training classes, option trading course in kolkata, offline stock market classes near me, stock trading institute near me, trading classes in kolkata, stock market classes in kolkata, share market academy near me, trading institute in kolkata, stock market training institute in kolkata, trading in share market, trading course in kolkata, stock market courses in kolkata, beginner stock trading course, share market course in kolkata"
+      content="Learn options trading, price action and risk management through offline classroom training in Kolkata. Register for TradePulse’s free 2-day workshop."
     />
     <meta
       property="og:title"
-      content="Stock Market Training Institute in Kolkata | Option Trading Course | TradePulse"
+      content="Options Trading Course in Kolkata | TradePulse Academy"
     />
     <meta
       property="og:description"
-      content="Offline stock market training classes & option trading course in Kolkata. Register for TradePulse's free 2-day workshop."
+      content="Offline options trading education with live mentor guidance in Kolkata. Register for the free 2-day workshop."
     />
     <meta property="og:type" content="website" />
 
@@ -53,7 +50,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         "@context": "https://schema.org",
         "@type": "EducationalOrganization",
         "name": "TradePulse Traders Institute",
-        "description": "Stock market training institute in Kolkata offering trading classes, beginner stock trading course, option trading course in kolkata, and offline stock market classes near me.",
+        "description": "Offline stock market and options trading training institute in Kolkata",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "EN-66, Sector V, Bidhannagar",
@@ -62,29 +59,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           "addressCountry": "IN"
         },
         "telephone": "+919422799531",
-        "email": "tradepulse14@gmail.com",
-        "keywords": [
-          "trading classes",
-          "trading course",
-          "trading classes near me",
-          "online trading course",
-          "stock market classes near me",
-          "option trading classes near me",
-          "stock market training classes",
-          "option trading course in kolkata",
-          "offline stock market classes near me",
-          "stock trading institute near me",
-          "trading classes in kolkata",
-          "stock market classes in kolkata",
-          "share market academy near me",
-          "trading institute in kolkata",
-          "stock market training institute in kolkata",
-          "trading in share market",
-          "trading course in kolkata",
-          "stock market courses in kolkata",
-          "beginner stock trading course",
-          "share market course in kolkata"
-        ]
+        "email": "tradepulse14@gmail.com"
       }
     </script>
     <script type="application/ld+json">
@@ -301,7 +276,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         display: grid;
         grid-template-columns: 1fr 420px;
         gap: 48px;
-        align-items: start;
+        align-items: center;
       }
       .hero-badge {
         display: inline-flex;
@@ -523,12 +498,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         );
         background-size: 200% auto;
         color: var(--black);
-        padding: 11px 16px;
+        padding: 14px;
         border: none;
-        border-radius: 8px;
+        border-radius: 10px;
         font-weight: 700;
-        font-size: 14px;
-        line-height: 1.35;
+        font-size: 16px;
         cursor: pointer;
         transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
         font-family: var(--font-body);
@@ -2368,7 +2342,120 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         font-size: 15px;
       }
 
+      /* ─── WHATSAPP FLOAT ─── */
+      .wa-float {
+        position: fixed;
+        bottom: 88px;
+        right: 20px;
+        z-index: 98;
+        background: #25d366;
+        color: var(--white);
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 26px;
+        box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
+        transition: transform 0.2s;
+      }
+      .wa-float:hover {
+        transform: scale(1.1);
+      }
+      @media (min-width: 769px) {
+        .wa-float {
+          bottom: 28px;
+        }
+      }
 
+      /* ─── PHONE FLOAT ─── */
+      .phone-float {
+        position: fixed;
+        bottom: 152px;
+        right: 20px;
+        z-index: 98;
+        background: linear-gradient(135deg, var(--gold), var(--gold-light));
+        color: var(--black);
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 24px;
+        box-shadow: 0 4px 16px rgba(212, 175, 55, 0.4);
+        transition: transform 0.2s;
+        animation: waBounce 2.5s ease-in-out infinite;
+        animation-delay: 0.25s;
+      }
+      .phone-float:hover {
+        animation: none;
+        transform: scale(1.1);
+        color: var(--black);
+      }
+      @media (min-width: 769px) {
+        .phone-float {
+          bottom: 92px;
+        }
+      }
+
+        /* ─── FLOATING CONTACT BUTTONS (BOTTOM-RIGHT) ─── */
+      .floating-buttons-wrap {
+        position: fixed;
+        bottom: 28px;
+        right: 20px;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+      }
+      .float-btn {
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff !important;
+        text-decoration: none;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+        cursor: pointer;
+      }
+      .float-btn:hover {
+        transform: scale(1.12);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+        color: #ffffff !important;
+      }
+      .float-btn-call {
+        background: #2563eb; /* Vibrant Blue */
+        font-size: 22px;
+      }
+      .float-btn-wa {
+        background: #25d366; /* Vibrant Green */
+        font-size: 28px;
+      }
+      @media (max-width: 768px) {
+        .floating-buttons-wrap {
+          bottom: 84px;
+          right: 16px;
+          gap: 10px;
+        }
+        .float-btn {
+          width: 48px;
+          height: 48px;
+        }
+        .float-btn-call {
+          font-size: 20px;
+        }
+        .float-btn-wa {
+          font-size: 25px;
+        }
+      }
 
       /* ─── ADDITIONAL MOBILE RESPONSIVENESS OVERRIDES ─── */
       html,
@@ -2411,43 +2498,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       @media (max-width: 900px) {
         .hero-inner {
-          display: flex;
-          flex-direction: column;
-          gap: 20px;
-        }
-        .hero-left-content {
-          display: contents;
+          grid-template-columns: 1fr;
+          gap: 36px;
         }
         .hero-form-card {
-          order: 1;
           max-width: 480px;
-          width: 100%;
-          margin: 0 auto 20px;
-        }
-        .hero-eyebrow {
-          order: 2;
-        }
-        .hero h1 {
-          order: 3;
-        }
-        .hero-subhead {
-          order: 4;
-        }
-        .hero-badge {
-          order: 5;
-          margin-left: auto;
-          margin-right: auto;
-        }
-        .hero a.video {
-          order: 6;
-          margin-left: auto;
-          margin-right: auto;
-        }
-        .hero-bullets {
-          order: 7;
-        }
-        .hero-cta-row {
-          order: 8;
+          margin: 0 auto;
         }
       }
 
@@ -2924,7 +2980,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- ─── HERO ─── -->
     <section class="hero" id="hero">
       <div class="hero-inner">
-        <div class="hero-left-content">
+        <div>
           <div class="hero-badge">
             Offline Trading Institute · Salt Lake, Kolkata
           </div>
@@ -2938,7 +2994,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <a 
             class="video" 
             style="display: block; position: relative; cursor: pointer; border-radius: 8px; overflow: hidden; max-width: 600px; margin-bottom: 24px;" 
-           href="training.php" >
+           href="#demo" >
             <img src="bannerimageofvideosection.jpeg" alt="Free 2-Day Trading Workshop" style="width: 100%; height: auto; display: block;" />
             <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.6); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
               <i class="fa-solid fa-play" style="color: white; font-size: 24px; margin-left: 4px;"></i>
@@ -2952,7 +3008,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li>2-Month intensive format with real market examples</li>
           </ul>
           <div class="hero-cta-row">
-            <a class="btn-primary" href="training.php"
+            <a class="btn-primary" href="#demo"
               ><i
                 class="fa-solid fa-play"
                 style="margin-right: 8px"
@@ -4018,30 +4074,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   WhatsApp us directly at 9422799531 or 8927578901.
                 </div>
               </div>
-              <div class="faq-item">
-                <div class="faq-q" onclick="toggleFaq(this)">
-                  Are you a stock market training institute in Kolkata for trading classes near me?
-                </div>
-                <div class="faq-a">
-                  Yes. TradePulse is a premier <strong>stock market training institute in kolkata</strong> located in Sector V, Salt Lake. If you are searching for <strong>trading classes near me</strong>, <strong>offline stock market classes near me</strong>, <strong>stock trading institute near me</strong>, <strong>trading institute in kolkata</strong>, or a <strong>share market academy near me</strong>, we offer hands-on <strong>trading classes</strong> and <strong>stock market classes near me</strong>.
-                </div>
-              </div>
-              <div class="faq-item">
-                <div class="faq-q" onclick="toggleFaq(this)">
-                  What is covered in your beginner stock trading course &amp; option trading course in Kolkata?
-                </div>
-                <div class="faq-a">
-                  We offer structured <strong>stock market training classes</strong>, a comprehensive <strong>beginner stock trading course</strong>, an intensive <strong>option trading course in kolkata</strong>, and <strong>option trading classes near me</strong>. Our <strong>share market course in kolkata</strong> and <strong>stock market courses in kolkata</strong> focus on price action, risk management, and practical <strong>trading in share market</strong>.
-                </div>
-              </div>
-              <div class="faq-item">
-                <div class="faq-q" onclick="toggleFaq(this)">
-                  How do your offline trading classes in Kolkata compare to an online trading course?
-                </div>
-                <div class="faq-a">
-                  Unlike a passive <strong>online trading course</strong> with pre-recorded videos, our <strong>trading classes in kolkata</strong> and <strong>stock market classes in kolkata</strong> feature live classroom interaction. As a top <strong>trading course in kolkata</strong> and <strong>trading course</strong> provider, TradePulse ensures direct mentor interaction during active market hours.
-                </div>
-              </div>
             </div>
           </div>
 
@@ -4198,7 +4230,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li><a href="#mentor">About Dr. Ghosh</a></li>
               <li><a href="#testimonials">Student Reviews</a></li>
               <li><a href="#faq">FAQ</a></li>
-              <li><a href="privacy-policy.php" target="_blank">Privacy Policy</a></li>
               <li><a href="#demo">Reserve My Free 2-Day Workshop Seat</a></li>
             </ul>
           </div>
@@ -4257,7 +4288,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <hr class="footer-divider" />
         <div class="footer-bottom">
           <div class="footer-copy">
-            © 2026 TradePulse Traders Institute. All rights reserved. | <a href="privacy-policy.php" target="_blank" style="color: var(--gold-mid); text-decoration: underline;">Privacy Policy</a><br />
+            © 2026 TradePulse Traders Institute. All rights reserved.<br />
             <span class="developer-credit"
               >Design &amp; developed by
               <a href="https://goadslive.com/" target="_blank" rel="noopener"
@@ -4422,14 +4453,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           btn.innerHTML = 'Submitting... <i class="fa-solid fa-spinner fa-spin" style="margin-left:5px"></i>';
           btn.disabled = true;
         }
-        var formData = new URLSearchParams(new FormData(form));
+        var formData = new FormData(form);
         fetch(form.action, {
           method: 'POST',
           body: formData,
-          headers: { 
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Accept': 'application/json' 
-          }
+          headers: { 'Accept': 'application/json' }
         })
         .then(function(res) { return res.json(); })
         .then(function(data) {
@@ -4454,6 +4482,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       });
     });
   </script>
-
+    <!-- ─── FLOATING ACTION BUTTONS (BOTTOM RIGHT) ─── -->
+  <div class="floating-buttons-wrap">
+    <a href="tel:+918927578901" class="float-btn float-btn-call" title="Call Us Now" target="_blank" rel="noopener">
+      <i class="fa-solid fa-phone"></i>
+    </a>
+    <a href="https://wa.me/918927578901" class="float-btn float-btn-wa" title="WhatsApp Us" target="_blank" rel="noopener">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </div>
 </body>
 </html>

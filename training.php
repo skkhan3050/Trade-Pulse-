@@ -4,23 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Stock Market Training Institute in Kolkata | Trading Classes & Option Trading Course | TradePulse
+      TradePulse Traders Institute | Stock Market Training Kolkata | Options
+      Trading Course
     </title>
     <meta
       name="description"
-      content="Looking for a stock market training institute in kolkata or trading classes near me? Join TradePulse — the top stock trading institute in Kolkata for beginner stock trading course, option trading course in kolkata, share market course in kolkata, and offline stock market classes near me."
+      content="Learn stock market trading from scratch at TradePulse Traders Institute, Kolkata. Join Option Chakravyuh 0.1 — a 2-Month offline masterclass covering price action, options strategy, and trading psychology. Free 3-Day Demo Class available. Mentor: Dr. Supratim Ghosh."
     />
     <meta
       name="keywords"
-      content="trading classes, trading course, trading classes near me, online trading course, stock market classes near me, option trading classes near me, stock market training classes, option trading course in kolkata, offline stock market classes near me, stock trading institute near me, trading classes in kolkata, stock market classes in kolkata, share market academy near me, trading institute in kolkata, stock market training institute in kolkata, trading in share market, trading course in kolkata, stock market courses in kolkata, beginner stock trading course, share market course in kolkata"
+      content="stock market training Kolkata, trading institute Kolkata, stock market course Kolkata, share market classes Kolkata, trading classes Kolkata, options trading training, beginner trading course, trading mentor Kolkata, stock market education"
     />
     <meta
       property="og:title"
-      content="Stock Market Training Institute in Kolkata | Option Trading Course | TradePulse"
+      content="TradePulse — Options Masterclass in Kolkata | Free 3-Day Demo"
     />
     <meta
       property="og:description"
-      content="Offline stock market training classes & option trading course in Kolkata. Register for TradePulse's free 3-day demo."
+      content="Stop guessing in the market. Join Kolkata's structured offline trading education program by Dr. Supratim Ghosh. Free 3-Day Demo Class available now."
     />
     <meta property="og:type" content="website" />
 
@@ -45,7 +46,7 @@
         "@context": "https://schema.org",
         "@type": "EducationalOrganization",
         "name": "TradePulse Traders Institute",
-        "description": "Stock market training institute in Kolkata offering trading classes, beginner stock trading course, option trading course in kolkata, and offline stock market classes near me.",
+        "description": "Offline stock market and options trading training institute in Kolkata",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "EN-66, Sector V, Bidhannagar",
@@ -54,29 +55,7 @@
           "addressCountry": "IN"
         },
         "telephone": "+919422799531",
-        "email": "tradepulse14@gmail.com",
-        "keywords": [
-          "trading classes",
-          "trading course",
-          "trading classes near me",
-          "online trading course",
-          "stock market classes near me",
-          "option trading classes near me",
-          "stock market training classes",
-          "option trading course in kolkata",
-          "offline stock market classes near me",
-          "stock trading institute near me",
-          "trading classes in kolkata",
-          "stock market classes in kolkata",
-          "share market academy near me",
-          "trading institute in kolkata",
-          "stock market training institute in kolkata",
-          "trading in share market",
-          "trading course in kolkata",
-          "stock market courses in kolkata",
-          "beginner stock trading course",
-          "share market course in kolkata"
-        ]
+        "email": "tradepulse14@gmail.com"
       }
     </script>
     <script type="application/ld+json">
@@ -2936,17 +2915,6 @@
     <p style="font-size: 14px; color: #999999; margin-top: 16px; max-width: 500px; margin-left: auto; margin-right: auto;">
       Watch the full training first. Then book your clarity call only if you are serious about building a structured trading process.
     </p>
-
-    <!-- SEO & Google Ads Keyword Context -->
-    <div style="margin-top: 40px; border-top: 1px solid #2a2a2a; padding-top: 24px; text-align: left; font-size: 13px; color: #888; line-height: 1.6;">
-      <p style="margin-bottom: 10px;"><strong>TradePulse — Stock Market Training Institute in Kolkata</strong></p>
-      <p>Offering offline <strong>trading classes</strong>, <strong>trading course</strong>, <strong>beginner stock trading course</strong>, <strong>option trading course in kolkata</strong>, <strong>share market course in kolkata</strong>, and <strong>stock market courses in kolkata</strong>. If you are looking for <strong>trading classes near me</strong>, <strong>stock market classes near me</strong>, <strong>option trading classes near me</strong>, <strong>offline stock market classes near me</strong>, <strong>stock trading institute near me</strong>, <strong>trading classes in kolkata</strong>, <strong>stock market classes in kolkata</strong>, <strong>share market academy near me</strong>, <strong>trading institute in kolkata</strong>, or <strong>stock market training institute in kolkata</strong> to learn <strong>trading in share market</strong> and <strong>stock market training classes</strong>, TradePulse provides structured classroom education with live mentor interaction.</p>
-    </div>
-
-    <!-- Footer -->
-    <footer style="margin-top: 40px; border-top: 1px solid #2a2a2a; padding-top: 20px; font-size: 13px; color: #888; text-align: center;">
-      © 2026 TradePulse Traders Institute. All rights reserved. | <a href="privacy-policy.php" target="_blank" style="color: #bf953f; text-decoration: underline;">Privacy Policy</a>
-    </footer>
 
   </div>
 
