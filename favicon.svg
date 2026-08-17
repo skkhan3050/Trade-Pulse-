@@ -1,0 +1,54 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Deep High-Contrast Dark Badge Background -->
+  <rect width="128" height="128" rx="28" fill="#080c09" stroke="#d4af37" stroke-width="4"/>
+
+  <!-- Golden Outer Arc -->
+  <path d="M 28 76 C 20 44 48 18 84 18 C 96 18 106 24 112 34" stroke="url(#goldGrad)" stroke-width="7" stroke-linecap="round"/>
+  <!-- Gold Upward Arrow -->
+  <path d="M 88 46 L 116 20 L 112 56 Z" fill="url(#goldGrad)"/>
+
+  <!-- Candlestick Bars (Deep Vibrant Colors) -->
+  <!-- Bar 1 Gold -->
+  <line x1="38" y1="65" x2="38" y2="90" stroke="#ffd700" stroke-width="2.5"/>
+  <rect x="35.5" y="70" width="5" height="15" rx="1.5" fill="#ffd700"/>
+
+  <!-- Bar 2 Green -->
+  <line x1="50" y1="56" x2="50" y2="84" stroke="#00e676" stroke-width="2.5"/>
+  <rect x="47.5" y="60" width="5" height="17" rx="1.5" fill="#00e676"/>
+
+  <!-- Bar 3 Gold -->
+  <line x1="62" y1="48" x2="62" y2="76" stroke="#ffd700" stroke-width="2.5"/>
+  <rect x="59.5" y="52" width="5" height="18" rx="1.5" fill="#ffd700"/>
+
+  <!-- Bar 4 Green -->
+  <line x1="74" y1="38" x2="74" y2="68" stroke="#00e676" stroke-width="2.5"/>
+  <rect x="71.5" y="42" width="5" height="20" rx="1.5" fill="#00e676"/>
+
+  <!-- Bar 5 Gold -->
+  <line x1="86" y1="28" x2="86" y2="60" stroke="#ffd700" stroke-width="2.5"/>
+  <rect x="83.5" y="32" width="5" height="22" rx="1.5" fill="#ffd700"/>
+
+  <!-- Bull Head Emblem (High Contrast Emerald Green & Gold) -->
+  <path d="M 48 92 C 54 74 74 68 92 76 C 102 80 106 90 100 100 C 90 110 70 114 58 106 C 52 102 48 97 48 92 Z" fill="url(#bullGrad)"/>
+  <path d="M 80 70 C 90 64 100 66 106 72 C 98 76 88 74 80 70 Z" fill="#ffd700"/>
+  <!-- Bull Eye -->
+  <circle cx="88" cy="84" r="2.5" fill="#ffffff"/>
+
+  <!-- Open Book Base -->
+  <path d="M 28 108 L 64 99 L 100 108 L 92 115 L 64 107 L 36 115 Z" fill="url(#goldGrad)"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff099"/>
+      <stop offset="30%" stop-color="#ffd700"/>
+      <stop offset="70%" stop-color="#bf953f"/>
+      <stop offset="100%" stop-color="#b38728"/>
+    </linearGradient>
+    <linearGradient id="bullGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="30%" stop-color="#00e676"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -26,6 +26,7 @@
     <meta property="og:type" content="website" />
 
     <!-- Favicon & Browser Tab Icon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="apple-touch-icon" href="favicon.png" />

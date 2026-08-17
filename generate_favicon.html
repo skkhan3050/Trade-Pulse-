@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { margin: 0; background: transparent; overflow: hidden; display: flex; align-items: center; justify-content: center; height: 100vh; }
+  .favicon-box {
+    width: 128px;
+    height: 128px;
+    border-radius: 28px;
+    background: #0f1410;
+    border: 3px solid #d4af37;
+    box-shadow: inset 0 0 15px rgba(212, 175, 55, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+</style>
+</head>
+<body>
+<div class="favicon-box">
+  <svg width="108" height="108" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Golden Outer Arc & Arrow -->
+    <path d="M 40 120 C 30 70 70 30 130 30 C 150 30 165 40 175 55" stroke="url(#goldGrad)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 135 75 L 180 35 L 175 90 Z" fill="url(#goldGrad)"/>
+    
+    <!-- Candlestick Bars (Deep Vibrant Colors) -->
+    <!-- Bar 1 Gold -->
+    <rect x="58" y="110" width="8" height="25" rx="2" fill="#e6b800"/>
+    <line x1="62" y1="102" x2="62" y2="142" stroke="#e6b800" stroke-width="3"/>
+    
+    <!-- Bar 2 Green -->
+    <rect x="76" y="96" width="8" height="28" rx="2" fill="#00e676"/>
+    <line x1="80" y1="88" x2="80" y2="132" stroke="#00e676" stroke-width="3"/>
+    
+    <!-- Bar 3 Gold -->
+    <rect x="94" y="82" width="8" height="30" rx="2" fill="#ffd700"/>
+    <line x1="98" y1="74" x2="98" y2="120" stroke="#ffd700" stroke-width="3"/>
+    
+    <!-- Bar 4 Green -->
+    <rect x="112" y="68" width="8" height="32" rx="2" fill="#00e676"/>
+    <line x1="116" y1="60" x2="116" y2="108" stroke="#00e676" stroke-width="3"/>
+    
+    <!-- Bar 5 Gold -->
+    <rect x="130" y="54" width="8" height="34" rx="2" fill="#ffd700"/>
+    <line x1="134" y1="46" x2="134" y2="96" stroke="#ffd700" stroke-width="3"/>
+
+    <!-- Bull Head Silhouette (Vibrant Emerald Green & Gold Highlight) -->
+    <path d="M 75 145 C 85 115 115 105 145 118 C 160 125 165 140 155 155 C 140 170 110 175 90 165 C 80 160 75 152 75 145 Z" fill="url(#bullGrad)"/>
+    <path d="M 125 110 C 140 100 155 102 165 112 C 152 118 138 116 125 110 Z" fill="#ffd700"/>
+    <!-- Eye Glow -->
+    <circle cx="138" cy="132" r="4" fill="#ffffff"/>
+
+    <!-- Open Book Base -->
+    <path d="M 45 168 L 100 155 L 155 168 L 145 178 L 100 166 L 55 178 Z" fill="url(#goldGrad)"/>
+
+    <!-- Gradients -->
+    <defs>
+      <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#fff099"/>
+        <stop offset="30%" stop-color="#ffd700"/>
+        <stop offset="70%" stop-color="#bf953f"/>
+        <stop offset="100%" stop-color="#b38728"/>
+      </linearGradient>
+      <linearGradient id="bullGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#00f2fe"/>
+        <stop offset="30%" stop-color="#00e676"/>
+        <stop offset="100%" stop-color="#059669"/>
+      </linearGradient>
+    </defs>
+  </svg>
+</div>
+</body>
+</html>
