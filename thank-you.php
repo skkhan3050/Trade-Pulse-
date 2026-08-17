@@ -12,6 +12,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <title>Workshop Registration Confirmed | TradePulse Academy</title>
 
+<!-- Favicon & Browser Tab Icon -->
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<link rel="apple-touch-icon" href="favicon.png" />
+
 <style>
 
 *{

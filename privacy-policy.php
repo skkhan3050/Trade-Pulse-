@@ -12,7 +12,10 @@
       name="keywords"
       content="TradePulse privacy policy, stock market institute kolkata, trading course privacy"
     />
-    <link rel="icon" type="image/webp" href="logo.webp" />
+    <!-- Favicon & Browser Tab Icon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="favicon.png" />
 
     <!-- Google Fonts & Font Awesome -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
