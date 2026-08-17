@@ -2357,61 +2357,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         align-items: center;
         justify-content: center;
         text-decoration: none;
-        font-size: 26px;
-        box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
-        transition: transform 0.2s;
-      }
-      .wa-float:hover {
-        transform: scale(1.1);
-      }
-      @media (min-width: 769px) {
-        .wa-float {
-          bottom: 28px;
-        }
-      }
-
-      /* ─── PHONE FLOAT ─── */
-      .phone-float {
-        position: fixed;
-        bottom: 152px;
-        right: 20px;
-        z-index: 98;
-        background: linear-gradient(135deg, var(--gold), var(--gold-light));
-        color: var(--black);
-        width: 52px;
-        height: 52px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        font-size: 24px;
-        box-shadow: 0 4px 16px rgba(212, 175, 55, 0.4);
-        transition: transform 0.2s;
-        animation: waBounce 2.5s ease-in-out infinite;
-        animation-delay: 0.25s;
-      }
-      .phone-float:hover {
-        animation: none;
-        transform: scale(1.1);
-        color: var(--black);
-      }
-      @media (min-width: 769px) {
-        .phone-float {
-          bottom: 92px;
-        }
-      }
-
       /* ─── FLOATING CONTACT BUTTONS (BOTTOM-RIGHT) ─── */
       .floating-buttons-wrap {
-        position: fixed;
-        bottom: 24px;
-        right: 20px;
-        z-index: 99999;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        align-items: center;
+        position: fixed !important;
+        bottom: 28px !important;
+        right: 24px !important;
+        z-index: 999999 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 14px !important;
+        align-items: center !important;
       }
       .float-btn {
         width: 56px;
