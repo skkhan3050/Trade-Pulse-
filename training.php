@@ -2943,6 +2943,11 @@
       <p>Offering offline <strong>trading classes</strong>, <strong>trading course</strong>, <strong>beginner stock trading course</strong>, <strong>option trading course in kolkata</strong>, <strong>share market course in kolkata</strong>, and <strong>stock market courses in kolkata</strong>. If you are looking for <strong>trading classes near me</strong>, <strong>stock market classes near me</strong>, <strong>option trading classes near me</strong>, <strong>offline stock market classes near me</strong>, <strong>stock trading institute near me</strong>, <strong>trading classes in kolkata</strong>, <strong>stock market classes in kolkata</strong>, <strong>share market academy near me</strong>, <strong>trading institute in kolkata</strong>, or <strong>stock market training institute in kolkata</strong> to learn <strong>trading in share market</strong> and <strong>stock market training classes</strong>, TradePulse provides structured classroom education with live mentor interaction.</p>
     </div>
 
+    <!-- Footer -->
+    <footer style="margin-top: 40px; border-top: 1px solid #2a2a2a; padding-top: 20px; font-size: 13px; color: #888; text-align: center;">
+      © 2026 TradePulse Traders Institute. All rights reserved. | <a href="privacy-policy.php" target="_blank" style="color: #bf953f; text-decoration: underline;">Privacy Policy</a>
+    </footer>
+
   </div>
 
   <div class="modal-overlay" id="demoModal">

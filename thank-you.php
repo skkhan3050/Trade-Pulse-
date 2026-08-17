@@ -124,6 +124,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     <a href="/" class="btn">Back To Home</a>
+    <br><br>
+    <a href="privacy-policy.php" target="_blank" style="color: #666; font-size: 13px; text-decoration: underline;">Privacy Policy</a>
 
 
 </div>
